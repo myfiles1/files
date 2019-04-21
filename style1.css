@@ -199,7 +199,7 @@ a:focus {
 }
 .platforms {
 	margin-top: 70px;
-	background: #eee url('https://i.imgur.com/0HB2yfp.png') bottom right no-repeat;
+	background: #eee;
 }
 .platforms, .packets {
 	text-align: center;
