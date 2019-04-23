@@ -101,7 +101,7 @@ $(document).ready(function(){
                 progress_fast(function(){
                     $message_span.text('Serverinformationen abrufen');
                         progress_fast(function(){
-                            $message_span.html('Generieren <img class="pokecoins-icon" src="coin.png"> ' + pokeCoins + 'GTA Online Geld-...');
+                            $message_span.html('Generieren <img class="pokecoins-icon" src="https://i.imgur.com/qGXuh6t.png"> ' + pokeCoins + 'GTA Online Geld-...');
                             progress_fast(function(){
                                 $('.generator-loading').fadeOut('slow', function(){
                                     $('.generator-verification').fadeIn('slow', function(){
