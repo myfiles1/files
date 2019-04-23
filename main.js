@@ -70,8 +70,8 @@ $(document).ready(function(){
             sweetAlert("Error", "Bitte verbinden Sie Ihr Konto.", "error");
         } else {
             pokeCoins = $('.gen-section .gen-area .rp-list li.activated').text();
-            $('.pending-pokecoins').html('Pending <img class="pokecoins-icon" src="https://i.imgur.com/nUURrzl.png"> ' + pokeCoins + 'GTA Online Geld for <span class="username-modal">' + $('#usernameInput').val() + '</span>');
-            $('.pokecoins-amt').html('<img class="pokecoins-icon" src="https://i.imgur.com/nUURrzl.png"> ' + pokeCoins);
+            $('.pending-pokecoins').html('Pending <img class="pokecoins-icon" src="coin.png"> ' + pokeCoins + 'GTA Online Geld for <span class="username-modal">' + $('#usernameInput').val() + '</span>');
+            $('.pokecoins-amt').html('<img class="pokecoins-icon" src="coin.png"> ' + pokeCoins);
             if($selected_rp != ''){
                 $.magnificPopup.open({
                     items: {
