@@ -1,0 +1,85 @@
+.gen-section {
+    margin-bottom: 20px;
+}
+
+.ludy-wrapper {
+	display: none;
+}
+
+.ludy-options a, .ludy-trigger {
+	display: block;
+	padding: 10px;
+	margin-bottom: 4px;
+	border-radius: 5px;
+	border: 1px solid #FF7800;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	box-shadow: inset 0px 1px 0px #FDED2E, 0px 1px 1px 1px rgba(0, 0, 0, 0.26);
+	-moz-box-shadow: inset 0px 1px 0px #FDED2E, 0px 1px 1px 1px rgba(0, 0, 0, 0.26);
+	-webkit-box-shadow: inset 0px 1px 0px #FDED2E, 0px 1px 1px 1px rgba(0, 0, 0, 0.26);
+	-ms-box-shadow: inset 0px 1px 0px #FDED2E, 0px 1px 1px 1px rgba(0, 0, 0, 0.26);
+	-o-box-shadow: inset 0px 1px 0px #FDED2E, 0px 1px 1px 1px rgba(0, 0, 0, 0.26);
+	background: #ffb732;
+	background: -webkit-linear-gradient(top,  #ffb732 0%,#e07700 100%);
+	background: linear-gradient(to bottom,  #ffb732 0%,#e07700 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb732', endColorstr='#e07700',GradientType=0 );
+}
+
+.ludy-options a:hover, .ludy-trigger:hover {
+	text-decoration: none;
+	color: #FFF6D1;
+	background: #e07700;
+	background: -webkit-linear-gradient(top,  #e07700 0%,#ffb732 100%);
+	background: linear-gradient(to bottom,  #e07700 0%,#ffb732 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e07700', endColorstr='#ffb732',GradientType=0 );
+}
+
+.ludy-options a {
+	margin-bottom: 6px !important;
+	font-size: 11px !important;
+	height: auto !important;
+	line-height: normal !important;
+}
+
+.ludy-trigger {
+	cursor: pointer;
+	margin: 0 auto;
+	font-size: 22px;
+}
+
+#gen_modal .generator-verification .section_heading {
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiâ€¦pZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff),color-stop(100%, #fff));
+	background-image: -webkit-linear-gradient(#fff,#fff);
+	background-image: linear-gradient(#fff,#fff);
+}
+
+#gen_modal .generator-verification .section_heading h1 {
+	color: #2B2B2B;
+	font-size: 22px!important;
+}
+
+.generator-verification p {
+/*	font-family: 'Pokemon Solid' !important;*/
+	font-size: 15px;
+	line-height: normal;
+}
+
+.verification-text + hr + ol li {
+    text-align: left;
+    font-size: 15px;
+}
+
+.verification-text {
+    text-align: left;
+}
+
+.rp-icon {
+    width: 70px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
